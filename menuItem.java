@@ -7,21 +7,21 @@ public class menuItem{
     
 
 
-public menuItem(int id, String name, int price) {
-    this.id = id;
-    this.name = name;
-    this.price = price;
-}
+    public menuItem(int id, String name, int price) {
+        this.id = id;
+        this.name = name;
+        this.price = price;
+    }
 
-public int getId(){return id;}
+    public int getId(){return id;}
 
-public String getName(){return name;}
+    public String getName(){return name;}
 
-public int  getPrice(){return price;}
+    public int  getPrice(){return price;}
 
-public void setName(String name){this.name=name;}
+    public void setName(String name){this.name=name;}
 
-public void setPrice(int price){this.price=price;}
+    public void setPrice(int price){this.price=price;}
 
 
     //新增一筆資料的字串處理 ex. 5, 燒桃 ,$10000K
@@ -38,8 +38,4 @@ public void setPrice(int price){this.price=price;}
     public String toString() {
         return id + "," + name + "," + price;
     }
-
-
-
-
 }
