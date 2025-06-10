@@ -1,0 +1,5 @@
+Burger,100
+Fries,50
+coke,30
+Pizza,200
+Milk Tea,60
