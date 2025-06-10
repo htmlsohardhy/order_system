@@ -24,7 +24,7 @@ public void setName(String name){this.name=name;}
 public void setPrice(int price){this.price=price;}
 
 
-    //新增一筆資料的字串處理 ex. 5, 燒桃 ,$100^50k
+    //新增一筆資料的字串處理 ex. 5, 燒桃 ,$10000K
     private static menuItem addItem(String item){
         String[] data = item.split(",");
         int id = Integer.parseInt(data[0]);
